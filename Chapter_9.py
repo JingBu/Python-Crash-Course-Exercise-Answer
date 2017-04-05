@@ -142,7 +142,7 @@ class Restaurant(object):
             print("You can't roll back the number of served customers.")
             
             
-res = Restaurant('kalalo', 'chinese')
+res = Restaurant('kalalo', 'pizza')
 res.describe_restaurant()
 res.set_number_served(20)
 res.read_number_served()
